@@ -1,0 +1,44 @@
+{
+  "streams": [
+    {
+      "title": "mah stream",
+      "description": "streammm",
+      "id": 1
+    },
+    {
+      "title": "mah stream",
+      "description": "streammm",
+      "id": 2
+    },
+    {
+      "title": "gold emblem",
+      "description": "pitted prunes",
+      "userId": "110068334152291609861",
+      "id": 3
+    },
+    {
+      "title": "gold emblem",
+      "description": "pitted prunes",
+      "userId": "110068334152291609861",
+      "id": 4
+    },
+    {
+      "title": "gold emblem",
+      "description": "pitted prunes",
+      "userId": "110068334152291609861",
+      "id": 5
+    },
+    {
+      "title": "programmatic nav",
+      "description": "you should be at streamlsit now",
+      "userId": "110068334152291609861",
+      "id": 6
+    },
+    {
+      "title": "tums",
+      "description": "tums",
+      "userId": "110068334152291609861",
+      "id": 7
+    }
+  ]
+}
