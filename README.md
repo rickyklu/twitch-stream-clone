@@ -1,27 +1,38 @@
 # twitch streaming service clone
-A [Twitch.tv](https://twitch.tv) single page application clone build using React and Redux
+A [Twitch.tv](https://twitch.tv) single page application clone build using React and Redux. Project is comprised of 3 packages: a react powered webpage component, a json-server component, and a rtmpserver component.
 
 # Link To Site
 [No site currently available](#)
 
 # Set up
 * Clone or download the files
-* Run `npm install` to download the required packages and dependencies.
-* Run `npm start` to load page. By default, page should be load to the url `localhost:3000`.
+* `cd` into each of the directore and run `npm install` to download the required packages and dependencies.
+** `/client`
+** `/server`
+** `/rtmpserver`
+* Run `npm start` to load page in each of the following directories for the following:
+** `client`: React client and web interface
+** `server`: json-server which stores the list of streams
+** `rtmpserver`: server to host and send the streams to the website.
+
 
 # Usage
-Upon running `npm start` the page should open. 
-Site will have a sign up page to log in and view available streams or create your own stream.
+Upon running `npm start` the webpage `http://localhost:3000/` should open as a part of the `create-react-app` functionality. 
+Site will have a sign up page to log in (with your Google account) to create and view available streams.
+
+## Adding a stream
+*Instructions baseed off instructions from [https://github.com/illuspas/Node-Media-Server](Node Media Server)*
+* If using recording/streaming software like OBS, in the Settings -> Stream menu, set the following:
+** Stream Type : Select "Custom Streaming Server"
+** URL : type in the following without quotes "rtmp://localhost/live"
+** Stream key : the ID# of the stream according to the URL
 
 # Bugs/errors
 tbd
 
 # Technologies/libraries used
 * React
-* React-DOM
 * Redux
-* React-redux
-* Redux-forms
 * [Semantic-UI](https://semantic-ui.com/)
 
 # Credits
